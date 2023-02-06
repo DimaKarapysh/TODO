@@ -15,9 +15,9 @@ func NewTaskDelivery(taskIter *interactors.TaskInteractor) *TaskDelivery {
 }
 func (s *TaskDelivery) Route(r *gin.RouterGroup) {
 	r.GET("/tasks", s.All)
-	r.POST("/taskss", s.ById)
-	r.POST("/tasksss", s.Create)
-	r.POST("/taskssss", s.Toggle)
+	r.POST("/tasks/byId", s.ById)
+	r.POST("/task/create", s.Create)
+	r.POST("/task/toggle", s.Toggle)
 }
 func (s *TaskDelivery) All(r *gin.Context) {
 	tasks, err := s.taskIter.GetAllTasks()

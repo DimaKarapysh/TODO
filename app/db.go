@@ -6,14 +6,11 @@ import (
 	_ "github.com/lib/pq"
 	"github.com/pressly/goose"
 	log "github.com/sirupsen/logrus"
-	"gorm.io/driver/postgres"
-	"gorm.io/gorm"
 	"os"
 )
 
 var (
-	DB     *sql.DB
-	GormDB *gorm.DB
+	DB *sql.DB
 )
 
 func connectionString() string {
@@ -32,22 +29,7 @@ func InitDatabase() (*sql.DB, error) {
 		return nil, err
 	}
 	log.Infof("Database connection was created")
-
-	return db, nil
-}
-
-func InitGormDatabase() (*gorm.DB, error) {
-	db, err := gorm.Open(postgres.Open(connectionString()), &gorm.Config{})
-	if err != nil {
-		return nil, err
-	}
-
-	DB, err = db.DB()
-	if err != nil {
-		return nil, err
-	}
-
-	GormDB = db
+	DB = db
 	return db, nil
 }
 

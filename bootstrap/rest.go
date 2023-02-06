@@ -29,7 +29,7 @@ func InitRest() error {
 
 	// Initialization
 
-	tasksRepo := repos.NewTaskRepo(app.GormDB)
+	tasksRepo := repos.NewTaskRepo(app.DB)
 	//winnerRepo := repos.NewWinnerRepo(app.GormDB)
 	//winnerRepo := repos.NewWinnerTRepo()
 

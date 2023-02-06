@@ -153,3 +153,53 @@ Error #02: ОШИБКА: отношение "task_forms" не существуе
 [INFO](2023-02-03 20:02:56) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [03/Feb/2023:20:02:56 +0300] "GET /task/tasks" 200 309 "" "PostmanRuntime/7.30.1" (1ms)
 [INFO](2023-02-03 20:04:17) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [03/Feb/2023:20:04:17 +0300] "POST /task/taskssss" 200 37 "" "PostmanRuntime/7.30.1" (9ms)
 [INFO](2023-02-03 20:04:23) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [03/Feb/2023:20:04:23 +0300] "GET /task/tasks" 200 308 "" "PostmanRuntime/7.30.1" (1ms)
+[INFO](2023-02-04 18:15:09) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [04/Feb/2023:18:15:09 +0300] "GET /task/tasks" 200 308 "" "PostmanRuntime/7.30.1" (1ms)
+[ERROR](2023-02-04 18:15:35) /home/dmitriy/Документы/Документы/PortfolioToDO/delivery/rest_delivery/general.go:86 ОШИБКА: столбец "dune" не существует (SQLSTATE 42703)
+[ERROR](2023-02-04 18:15:35) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:72 Error #01: ОШИБКА: столбец "dune" не существует (SQLSTATE 42703)
+
+[INFO](2023-02-04 18:16:48) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [04/Feb/2023:18:16:48 +0300] "POST /task/taskssss" 200 37 "" "PostmanRuntime/7.30.1" (9ms)
+[INFO](2023-02-04 18:16:54) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [04/Feb/2023:18:16:54 +0300] "GET /task/tasks" 200 309 "" "PostmanRuntime/7.30.1" (1ms)
+[INFO](2023-02-04 18:17:02) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [04/Feb/2023:18:17:02 +0300] "GET /task/tasks" 200 309 "" "PostmanRuntime/7.30.1" (1ms)
+[INFO](2023-02-04 18:17:06) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [04/Feb/2023:18:17:06 +0300] "POST /task/taskssss" 200 37 "" "PostmanRuntime/7.30.1" (9ms)
+[INFO](2023-02-04 18:17:10) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [04/Feb/2023:18:17:10 +0300] "GET /task/tasks" 200 308 "" "PostmanRuntime/7.30.1" (1ms)
+[INFO](2023-02-04 18:24:00) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:34 Database connection was created
+[INFO](2023-02-04 18:24:52) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:34 Database connection was created
+[INFO](2023-02-04 18:26:19) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:34 Database connection was created
+[INFO](2023-02-04 18:41:35) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:34 Database connection was created
+[INFO](2023-02-04 18:41:46) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [04/Feb/2023:18:41:46 +0300] "GET /task/tasks" 200 308 "" "PostmanRuntime/7.30.1" (1ms)
+[INFO](2023-02-04 18:48:32) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-04 22:17:27) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-04 23:51:43) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [04/Feb/2023:23:51:43 +0300] "GET /task/tasks" 200 308 "" "PostmanRuntime/7.30.1" (1ms)
+[INFO](2023-02-06 16:08:10) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:09:16) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:10:24) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:12:46) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:13:10) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:14:25) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:16:36) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:17:03) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:18:38) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:21:04) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:23:49) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[WARNING](2023-02-06 16:29:31) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:78 127.0.0.1 - dmitriy-20n4000brt [06/Feb/2023:16:29:31 +0300] "POST /task/create " 404 0 "" "PostmanRuntime/7.30.1" (1ms)
+[WARNING](2023-02-06 16:30:03) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:78 127.0.0.1 - dmitriy-20n4000brt [06/Feb/2023:16:30:03 +0300] "POST /task/task/create  " 404 0 "" "PostmanRuntime/7.30.1" (1ms)
+[WARNING](2023-02-06 16:30:38) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:78 127.0.0.1 - dmitriy-20n4000brt [06/Feb/2023:16:30:38 +0300] "POST /task/task/create " 404 0 "" "PostmanRuntime/7.30.1" (1ms)
+[ERROR](2023-02-06 16:30:47) /home/dmitriy/Документы/Документы/PortfolioToDO/delivery/rest_delivery/general.go:86 pq: повторяющееся значение ключа нарушает ограничение уникальности "tasks_pkey"
+[ERROR](2023-02-06 16:30:47) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:72 Error #01: pq: повторяющееся значение ключа нарушает ограничение уникальности "tasks_pkey"
+
+[INFO](2023-02-06 16:31:15) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:80 127.0.0.1 - dmitriy-20n4000brt [06/Feb/2023:16:31:15 +0300] "GET /task/tasks" 200 308 "" "PostmanRuntime/7.30.1" (3ms)
+[INFO](2023-02-06 16:42:23) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:45:46) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:46:56) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 16:48:00) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 17:27:53) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 17:35:16) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 18:13:17) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 18:16:50) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 18:18:01) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 18:18:21) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 18:47:16) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 18:48:43) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 18:51:01) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 19:05:35) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created
+[INFO](2023-02-06 19:22:29) /home/dmitriy/Документы/Документы/PortfolioToDO/app/db.go:31 Database connection was created

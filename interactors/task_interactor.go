@@ -34,7 +34,6 @@ func (i *TaskInteractor) GetTaskById(taskId int) (domain.Task, error) {
 func (i *TaskInteractor) CreateTask(task domain.TaskForms) error {
 
 	d := domain.Task{
-		Id:       task.Id,
 		Name:     task.Name,
 		Priority: task.Priority,
 		Done:     task.Done,

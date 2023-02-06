@@ -68,3 +68,9 @@ Error #02: ОШИБКА: отношение "task_forms" не существуе
 [ERROR](2023-02-03 20:01:44) /home/dmitriy/Документы/Документы/PortfolioToDO/delivery/rest_delivery/general.go:86 ОШИБКА: столбец "Id" не существует (SQLSTATE 42703)
 [ERROR](2023-02-03 20:01:44) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:72 Error #01: ОШИБКА: столбец "Id" не существует (SQLSTATE 42703)
 
+[ERROR](2023-02-04 18:15:35) /home/dmitriy/Документы/Документы/PortfolioToDO/delivery/rest_delivery/general.go:86 ОШИБКА: столбец "dune" не существует (SQLSTATE 42703)
+[ERROR](2023-02-04 18:15:35) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:72 Error #01: ОШИБКА: столбец "dune" не существует (SQLSTATE 42703)
+
+[ERROR](2023-02-06 16:30:47) /home/dmitriy/Документы/Документы/PortfolioToDO/delivery/rest_delivery/general.go:86 pq: повторяющееся значение ключа нарушает ограничение уникальности "tasks_pkey"
+[ERROR](2023-02-06 16:30:47) /home/dmitriy/go/pkg/mod/github.com/toorop/gin-logrus@v0.0.0-20210225092905-2c785434f26f/logger.go:72 Error #01: pq: повторяющееся значение ключа нарушает ограничение уникальности "tasks_pkey"
+

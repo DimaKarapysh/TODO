@@ -12,7 +12,7 @@ func main() {
 	}
 
 	//// Initialize Database
-	_, err = app.InitGormDatabase()
+	_, err = app.InitDatabase()
 	if err != nil {
 		panic(err)
 	}
